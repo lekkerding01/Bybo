@@ -3,82 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Basis Website</title>
-  <style>
-    /* Basis styling */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #333;
-      color: white;
-      padding: 1rem;
-    }
-
-    .logo {
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
-
-    .menu-toggle {
-      font-size: 1.5rem;
-      cursor: pointer;
-      display: none;
-    }
-
-    nav {
-      display: flex;
-      gap: 1rem;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-    }
-
-    /* Responsieve weergave */
-    @media (max-width: 768px) {
-      .menu-toggle {
-        display: block;
-      }
-
-      nav {
-        display: none;
-        flex-direction: column;
-        background-color: #444;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 200px;
-        padding: 1rem;
-      }
-
-      nav.show {
-        display: flex;
-      }
-    }
-  </style>
+  <title>ByBO</title>
+  <link href="header.css" rel="stylesheet">
 </head>
 <body>
   <header>
-    <div class="logo">Mijn Site</div>
+    <div class="logo">ByBo Jewellery</div>
     <div class="menu-toggle" id="menu-toggle">&#9776;</div>
     <nav id="nav-menu">
       <a href="#">Home</a>
-      <a href="#">Over</a>
-      <a href="#">Contact</a>
     </nav>
   </header>
-
-  <main style="padding: 2rem;">
-    <h1>Welkom op mijn site</h1>
-    <p>Dit is een basisvoorbeeld van een responsive navigatie.</p>
-  </main>
 
   <script>
     // JavaScript voor het toggle-menu
@@ -91,3 +26,4 @@
   </script>
 </body>
 </html>
+
