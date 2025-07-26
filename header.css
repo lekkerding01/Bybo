@@ -49,7 +49,7 @@
       nav {
         display: none;
         flex-direction: column;
-        background-color: #444;
+        background-color: #ff7ccd;
         position: absolute;
         top: 60px;
         right: 0;
@@ -60,5 +60,6 @@
       nav.show {
         display: flex;
         margin-top: 40px;
+        padding-right: 15px;
       }
     }
